@@ -255,7 +255,7 @@
     var gamepads = [];
     for (let source of frame.session.inputSources) {
       if (source.gripSpace && source.gamepad) {
-        let sourcePose = frame.getPose(source.gripSpace, refSpace);
+        let sourcePose = frame.getPose(source.targetRaySpace, refSpace);
         if (sourcePose) {
           var position = sourcePose.transform.position;
           var orientation = sourcePose.transform.orientation;
