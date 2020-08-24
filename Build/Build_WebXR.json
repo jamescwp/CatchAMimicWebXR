@@ -1,7 +1,7 @@
 {
 "companyName": "Embodied Games",
 "productName": "Catch a Mimic",
-"productVersion": "1.1.1",
+"productVersion": "1.1.4",
 "dataUrl": "Build_WebXR.data.unityweb",
 "wasmCodeUrl": "Build_WebXR.wasm.code.unityweb",
 "wasmFrameworkUrl": "Build_WebXR.wasm.framework.unityweb",
